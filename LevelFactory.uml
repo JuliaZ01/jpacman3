@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>nl.tudelft.jpacman.level.LevelFactory</OriginalElement>
+  <nodes>
+    <node x="177.0" y="592.0">nl.tudelft.jpacman.level.Level.NpcMoveTask</node>
+    <node x="26.25" y="0.0">nl.tudelft.jpacman.level.Level</node>
+    <node x="594.0" y="384.0">nl.tudelft.jpacman.level.LevelFactory.RandomGhost</node>
+    <node x="0.0" y="616.0">nl.tudelft.jpacman.level.Level.LevelObserver</node>
+    <node x="558.0" y="0.0">nl.tudelft.jpacman.level.LevelFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="nl.tudelft.jpacman.level.Level.LevelObserver" target="nl.tudelft.jpacman.level.Level" relationship="INNER_CLASS">
+      <point x="0.0" y="-39.5" />
+      <point x="78.5" y="567.0" />
+      <point x="211.75" y="567.0" />
+      <point x="0.0" y="271.0" />
+    </edge>
+    <edge source="nl.tudelft.jpacman.level.LevelFactory.RandomGhost" target="nl.tudelft.jpacman.level.LevelFactory" relationship="INNER_CLASS">
+      <point x="0.0" y="-52.0" />
+      <point x="0.0" y="167.0" />
+    </edge>
+    <edge source="nl.tudelft.jpacman.level.Level.NpcMoveTask" target="nl.tudelft.jpacman.level.Level" relationship="INNER_CLASS">
+      <point x="0.0" y="-63.5" />
+      <point x="345.0" y="567.0" />
+      <point x="211.75" y="567.0" />
+      <point x="0.0" y="271.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="455.5" y="359.5" />
+  <SelectedNodes>
+    <node>nl.tudelft.jpacman.level.LevelFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
